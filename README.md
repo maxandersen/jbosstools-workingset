@@ -7,7 +7,7 @@ From original jira issue on this: https://issues.jboss.org/browse/JBIDE-4483
 
 This adds a crude preference page which allow you to specify a list of patterns that will be used in sequence as follows:
 
-<searchpattern>, <replacepattern>, <exclusive: true|false>
+`<searchpattern>, <replacepattern>, <exclusive: true|false>`
 
 searchpattern is a regular expression used to match against the project names, (i.e. org\.jboss\.tools\.([^\.]+).* finds all projects starting with org.jboss.tools and puts the text between the next two dots into the first capture group)
 
